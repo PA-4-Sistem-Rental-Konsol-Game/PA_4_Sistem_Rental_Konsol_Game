@@ -1,0 +1,10 @@
+id_transaksi,username,jenis,kode,nama,durasi,jumlah,total,waktu,id_referensi,jumlah_kembali
+TRX74623,kayla,Top Up,-,Top Up E-Money,0,0,20000,29-10-2026 12:53:01,,0
+TRX44722,kayla,Top Up,-,Top Up E-Money,0,0,20000,29-10-2026 12:54:11,,0
+TRX19204,adnan,Top Up,-,Top Up E-Money,0,0,30000,29-10-2026 15:08:42,,0
+TRX65520,adnan,Sewa,PS3,PlayStation 3,1,1,30000,29-10-2026 15:09:11,,1
+TRX23050,adnan,Top Up,-,Top Up E-Money,0,0,30000,29-10-2026 21:35:46,,0
+TRX46520,adnan,Sewa,PS3,PlayStation 3,1,1,30000,29-10-2026 21:36:15,,0
+TRX64013,adnan,Top Up,-,Top Up E-Money,0,0,40000,29-10-2026 21:37:08,,0
+TRX30399,adnan,Sewa,PS3,PlayStation 3,1,1,30000,29-10-2026 21:37:21,,0
+TRX88740,kayla,Sewa,PS3,PlayStation 3,1,1,30000,29-10-2026 23:21:20,,1
