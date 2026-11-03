@@ -1,7 +1,16 @@
 # PA_4_Sistem_Rental_Konsol_Game
 
+## Judul
+RENT 4-BIT
 
+## Tema
+Sistem Rental Konsol Game
 
+## Anggota & Peran
+1. Muhammad Khaidir Ali Ramadhani (2609116015)  : Ketua, Mengembangkan flowchart, merapikan kode program, merapikan penyusunan laporan.
+2. Kayla Azzahra Tusyifa (2609116027)           : Anggota, Mengembangkan kode program, membuat konsep utama flowchart, merapikan penyusunan laporan.
+3. Adnan Naufal Candra (2609116034)             : Anggota, Membuat konsep utama kode program, merapikan penyusunan laporan, merapikan flowchart
+4. Naily Najwa Azahra (2609116040)              : Anggota, Menyusun laporan, merapikan kode program, merapikan flowchart
 
 
 
