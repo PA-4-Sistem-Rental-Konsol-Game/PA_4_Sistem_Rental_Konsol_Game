@@ -246,3 +246,71 @@ Selanjutnya, User memilih nomor konsol yang ingin dikembalikan dan memasukkan ju
 Fitur logout digunakan user untuk keluar dari akun yang sedang digunakan dan mengakhiri sesi sebagai user. Ketika user memilih menu nomor 7, program akan menampilkan pesan "Logout berhasil." Setelah itu, pengguna akan diarahkan kembali ke menu utama sehingga dapat keluar dari akun user.
 
 ## OUTPUT DAN PENJELASAN
+
+## A. OUTPUT MENU UTAMA
+
+<img width="423" height="247" alt="image" src="https://github.com/user-attachments/assets/6e9ddf2d-697a-4b4e-b580-f9c3857ce4bd" />
+
+**1. Registrasi**
+
+<img width="689" height="205" alt="image" src="https://github.com/user-attachments/assets/d05bab23-7fe6-4e96-a69f-16003069cc48" />
+
+Menampilkan antarmuka CLI untuk pendaftaran pengguna baru. Sistem menerima input username dan password (disamarkan dengan *), lalu memunculkan pesan konfirmasi "Registrasi berhasil" sebelum pengguna menekan Enter untuk melanjutkan.
+
+**2. Login**
+
+<img width="692" height="200" alt="image" src="https://github.com/user-attachments/assets/ba28f4df-6ce7-470f-8b0e-cedc0e473259" />
+
+Menampilkan antarmuka CLI untuk proses autentikasi (login) pengguna. Sistem menerima input username dan password (disamarkan dengan *), lalu memunculkan pesan "Login berhasil. Selamat datang, [username]" sebelum pengguna menekan Enter untuk melanjutkan.
+
+**3. Keluar**
+
+<img width="547" height="244" alt="image" src="https://github.com/user-attachments/assets/4edff200-c559-48f1-9870-31d053cc6dd0" />
+
+Menampilkan antarmuka CLI untuk menu utama aplikasi RENTAL KONSOL BY 4-BIT ("RENT 4-BIT"). Sistem menampilkan tiga opsi: Registrasi, Login, dan Keluar. Pada contoh ini, pengguna menginput angka "3" (Keluar), sehingga program menampilkan pesan penutup "Terima kasih telah menggunakan RENT 4-BIT." dan proses eksekusi program dihentikan.
+
+## A. OUTPUT MENU UTAMA ADMIN
+
+<img width="384" height="263" alt="image" src="https://github.com/user-attachments/assets/d87d1567-ef8c-4e1a-93df-5b8d72b94cb4" />
+
+**1. Tambah Konsol**
+
+<img width="728" height="300" alt="image" src="https://github.com/user-attachments/assets/101b8535-46b8-4091-9712-b27e1945ed11" />
+
+Menampilkan antarmuka CLI untuk fitur penambahan data konsol baru ke dalam sistem. Aplikasi menerima serangkaian input dari pengguna meliputi kode, nama, merek, harga sewa per jam, serta jumlah stok konsol. Setelah mengonfirmasi penyimpanan dengan mengetik 'y', sistem memunculkan pesan "Konsol berhasil ditambahkan." sebelum meminta pengguna menekan Enter untuk melanjutkan.
+
+**2. Lihat Konsol**
+
+<img width="669" height="323" alt="image" src="https://github.com/user-attachments/assets/a7701786-4dbd-482a-8b1b-4df14f0fb21b" />
+
+Menampilkan antarmuka CLI berbentuk tabel yang berisi daftar konsol yang tersedia untuk disewa. Tabel ini mencakup kolom untuk Kode, Nama, Merek, Harga/Jam, dan Stok konsol, dengan data terbaru dari input sebelumnya (Game Boy) telah ditambahkan ke bagian bawah daftar.
+
+**3. Ubah Konsol**
+
+<img width="738" height="630" alt="image" src="https://github.com/user-attachments/assets/a96d4b6f-de1d-4d2a-a502-fcef4b4d8be7" />
+
+Menampilkan antarmuka CLI untuk fitur pembaruan (edit) data konsol. Sistem menampilkan tabel data saat ini sebagai referensi, lalu meminta pengguna memasukkan kode konsol yang akan diubah (pada contoh ini: PS3). Setelah pengguna menginput data pembaruan (nama, merek, harga, dan stok) dan mengetik 'y' untuk menyimpan, sistem akan memunculkan pesan "Data konsol berhasil diubah.".
+
+**4. Hapus Konsol**
+
+<img width="747" height="500" alt="image" src="https://github.com/user-attachments/assets/cabed276-0863-4b53-b303-ad103dc2213e" />
+
+Menampilkan antarmuka CLI untuk fitur penghapusan data konsol dari sistem. Program menampilkan tabel daftar konsol sebagai referensi, lalu meminta pengguna memasukkan kode konsol yang ingin dihapus (pada contoh ini: NSW). Setelah pengguna memberikan konfirmasi dengan mengetik 'Y', sistem memunculkan pesan "Konsol berhasil dihapus.".
+
+**5. Lihat Penyewaan dan Transaksi**
+
+<img width="975" height="292" alt="image" src="https://github.com/user-attachments/assets/f408f004-a859-4f3c-9f01-c88972a0b85c" />
+
+Menampilkan antarmuka CLI berbentuk tabel yang berisi rekam jejak transaksi pengguna. Tabel ini mencakup rincian ID transaksi, Username, Jenis transaksi (Top Up atau Sewa), Kode dan Nama barang/layanan, Durasi, Jumlah, Total biaya, serta Waktu transaksi. Pengguna diminta menekan Enter untuk melanjutkan setelah melihat data tersebut.
+
+**6. Laporan Ringkas**
+
+<img width="442" height="266" alt="image" src="https://github.com/user-attachments/assets/c247afe1-7821-4c68-8972-36585017ec3b" />
+
+Menampilkan antarmuka CLI untuk rekapitulasi data performa penyewaan konsol. Sistem merangkum metrik bisnis secara otomatis, meliputi Total Pendapatan, Jumlah Transaksi, serta statistik Produk Terlaris beserta total unit dan frekuensi sewanya. Pengguna diminta menekan Enter untuk melanjutkan setelah meninjau laporan.   
+
+**7. Logout**
+
+<img width="467" height="161" alt="image" src="https://github.com/user-attachments/assets/ab73edc0-dea2-44da-a303-49da2c9c2b8d" />
+
+Menampilkan antarmuka CLI untuk fitur keluar (logout) dari sesi akun pengguna. Setelah pengguna memilih opsi menu "7" (Logout), sistem mengonfirmasi dengan pesan "Logout berhasil." dan meminta pengguna menekan Enter untuk melanjutkan
