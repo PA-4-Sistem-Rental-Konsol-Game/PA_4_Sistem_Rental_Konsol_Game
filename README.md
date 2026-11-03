@@ -147,7 +147,7 @@ Fitur keluar digunakan untuk mengakhiri program RENT 4-BIT. Ketika pengguna memi
 ## B. MENU ADMIN
 <img width="2396" height="1488" alt="8968112D-EE8C-4ED2-BF8E-62969C04454B_1_201_a" src="https://github.com/user-attachments/assets/cad8f4cf-9db2-450d-b24a-471c4ad56021" />
 <img width="2384" height="360" alt="6FE681E9-1423-4E90-9915-9ADCAB2175D8_1_201_a" src="https://github.com/user-attachments/assets/49d6f31b-0421-4907-96ae-8cd0c8b5d967" />
-Menu Admin hanya satu satunya dengan username : *admin* dan password : *admin123*. Pada menu admin tersedia berbagai pilihan fitur khusus untuk pengelola rental konsol game. Pada menu ini terdapat tujuh pilihan, yaitu tambah konsol, lihat konsol, ubah konsol, hapus konsol, lihat penyewaan dan transaksi, laporan ringkas, serta logout. Admin dapat memilih fitur sesuai kebutuhan dengan memasukkan nomor menu yang tersedia. Program juga melakukan validasi pilihan agar input sesuai dengan menu dan menampilkan pesan apabila terjadi kesalahan saat memasukkan pilihan.
+Menu Admin hanya satu satunya dengan username : (admin) dan password : (admin123). Pada menu admin tersedia berbagai pilihan fitur khusus untuk pengelola rental konsol game. Pada menu ini terdapat tujuh pilihan, yaitu tambah konsol, lihat konsol, ubah konsol, hapus konsol, lihat penyewaan dan transaksi, laporan ringkas, serta logout. Admin dapat memilih fitur sesuai kebutuhan dengan memasukkan nomor menu yang tersedia. Program juga melakukan validasi pilihan agar input sesuai dengan menu dan menampilkan pesan apabila terjadi kesalahan saat memasukkan pilihan.
 
 **1. Tambah Konsol**
 <img width="2370" height="1545" alt="D277FF22-CA61-4469-B45D-D08F2F90307F_1_201_a" src="https://github.com/user-attachments/assets/dd4e7ba4-ff9a-447e-ac73-0d19474bbfaf" />
