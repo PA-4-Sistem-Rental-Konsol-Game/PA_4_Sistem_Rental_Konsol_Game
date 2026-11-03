@@ -314,3 +314,5 @@ Menampilkan antarmuka CLI untuk rekapitulasi data performa penyewaan konsol. Sis
 <img width="467" height="161" alt="image" src="https://github.com/user-attachments/assets/ab73edc0-dea2-44da-a303-49da2c9c2b8d" />
 
 Menampilkan antarmuka CLI untuk fitur keluar (logout) dari sesi akun pengguna. Setelah pengguna memilih opsi menu "7" (Logout), sistem mengonfirmasi dengan pesan "Logout berhasil." dan meminta pengguna menekan Enter untuk melanjutkan
+
+## C. MENU USER
