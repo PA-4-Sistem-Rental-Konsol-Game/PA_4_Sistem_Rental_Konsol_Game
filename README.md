@@ -7,13 +7,40 @@ RENT 4-BIT
 Sistem Rental Konsol Game
 
 ## Anggota & Peran
-1. Muhammad Khaidir Ali Ramadhani (2609116015)  : Project Leader, Mengembangkan flowchart, merapikan kode program, merapikan penyusunan laporan.
-2. Kayla Azzahra Tusyifa (2609116027)           : Anggota, Mengembangkan kode program, membuat konsep utama flowchart, merapikan penyusunan laporan.
-3. Adnan Naufal Candra (2609116034)             : Anggota, Membuat konsep utama kode program, merapikan penyusunan laporan, merapikan flowchart
-4. Naily Najwa Azahra (2609116040)              : Anggota, Menyusun laporan, merapikan kode program, merapikan flowchart
+1. Muhammad Khaidir Ali Ramadhani (2609116015)  : Project Leader.
+   
+   Mengembangkan flowchart, merapikan kode program, merapikan penyusunan laporan.
 
+2. Kayla Azzahra Tusyifa (2609116027)           : Anggota.
 
+    Mengembangkan kode program, membuat konsep utama flowchart, merapikan penyusunan laporan.
+   
+3. Adnan Naufal Candra (2609116034)             : Anggota.
 
+    Membuat konsep utama kode program, merapikan penyusunan laporan, merapikan flowchart
+   
+4. Naily Najwa Azahra (2609116040)              : Anggota.
+
+    Menyusun laporan, merapikan kode program, merapikan flowchart
+
+## Deskripsi 
+RENT 4-BIT merupakan program sistem rental konsol game berbasis bahasa pemrograman Python yang dibuat untuk membantu proses pengelolaan penyewaan konsol game secara lebih terstruktur dan efisien. Program ini dijalankan melalui terminal dan menggunakan file CSV sebagai media penyimpanan data akun pengguna, daftar konsol, serta transaksi.
+
+Program RENT 4-BIT memiliki dua jenis hak akses, yaitu Admin dan User. Admin memiliki akses untuk mengelola data konsol melalui fitur tambah, lihat, ubah, dan hapus data (CRUD), melihat seluruh transaksi penyewaan, serta mengakses laporan ringkas yang menampilkan total pendapatan, jumlah transaksi, dan produk terlaris.
+Sementara itu, User dapat melakukan registrasi dan login, melihat daftar konsol, melakukan top up saldo e-money, menyewa konsol berdasarkan stok dan saldo yang tersedia, melihat riwayat transaksi, mencetak invoice, serta melakukan pengembalian konsol.
+
+Program ini juga dilengkapi dengan validasi input, penanganan kesalahan, pencatatan waktu transaksi, dan pengelolaan stok secara otomatis untuk mendukung proses penyewaan.
+
+## Tujuan
+Tujuan pembuatan program RENT 4-BIT adalah sebagai berikut:
+
+1. Membuat sistem rental konsol game menggunakan bahasa pemrograman Python untuk membantu pengelolaan penyewaan secara terstruktur.
+2. Menerapkan fitur registrasi, login, serta pembagian hak akses antara Admin dan User.
+3. Menerapkan konsep CRUD untuk mempermudah pengelolaan data konsol.
+4. Mengimplementasikan penyimpanan dan pengolahan data menggunakan file CSV.
+5. Menyediakan fitur top up e-money, penyewaan, pembayaran, dan pengembalian konsol.
+6. Menyediakan fitur riwayat transaksi, pencetakan invoice, dan laporan ringkas.
+7. Menerapkan konsep dasar pemrograman Python, seperti function, percabangan, perulangan, list, tuple, dictionary, dan set.
 
 
 
@@ -100,3 +127,5 @@ Flowchart Menu User berfungsi untuk memberikan akses kepada pengguna agar dapat 
 
 **Opsi 7 — Logout**
 User memilih menu ``logout``, kemudian program mengakhiri sesi pengguna dan mengarahkan pengguna kembali ke Menu Utama.
+
+## Daftar Fitur per Role
