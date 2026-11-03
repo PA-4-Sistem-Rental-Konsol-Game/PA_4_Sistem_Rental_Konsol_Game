@@ -124,7 +124,7 @@ User memilih menu ``logout``, kemudian program mengakhiri sesi pengguna dan meng
 ## DAFTAR FITUR PER ROLE
 Program RENT 4-BIT memiliki beberapa fitur yang dikelompokkan berdasarkan hak akses pengguna, yaitu Menu Utama, Admin, dan User. Setiap role memiliki fungsi dan hak akses yang berbeda sesuai kebutuhan sistem.
 
-## A. Menu Utama 
+## A. MENU UTAMA 
 <img width="2383" height="1506" alt="E45C1BA1-FC83-4BC9-B553-C68717B3FC57_1_201_a" src="https://github.com/user-attachments/assets/1415f652-3bf4-4d25-beab-5eb6feb83093" />
 
 Menu utama merupakan tampilan awal program yang digunakan pengguna untuk memilih layanan sebelum masuk ke dalam sistem. Terdapat tiga pilihan yang tersedia, yaitu: 1. Registrasi, 2. Login dan 3. Keluar. Program juga melakukan validasi pilihan agar input sesuai dengan menu dan menampilkan pesan apabila terjadi kesalahan saat memasukkan pilihan.
