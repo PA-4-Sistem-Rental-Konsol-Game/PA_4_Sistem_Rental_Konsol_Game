@@ -349,3 +349,15 @@ Menampilkan tabel riwayat transaksi milik user yang sedang login saja. Kolom yan
 Menampilkan tampilan untuk mencetak bukti transaksi. Program menampilkan tabel riwayat transaksi (No., ID Transaksi, Jenis, Waktu, Total), lalu user memilih nomor transaksi yang mau dicetak. Setelah itu program menampilkan invoice "RENT 4-BIT" yang berisi ID Transaksi, Username, Jenis, Waktu, rincian konsol (Kode, Nama, Durasi, Jumlah, Subtotal), dan Total Transaksi, lalu ditutup dengan tulisan "Terima kasih telah bertransaksi!".
 
 **6. Pengembalian Konsol**
+
+<img width="677" height="391" alt="image" src="https://github.com/user-attachments/assets/fef69914-6180-4ad8-ab27-4ca60405a54b" />
+
+Menampilkan tampilan untuk mengembalikan konsol yang sedang disewa. User memilih nomor konsol dan jumlah yang dikembalikan, lalu mengetik 'y' untuk konfirmasi. Program menampilkan "Pengembalian berhasil dicatat!" beserta nama konsol dan jumlah yang dikembalikan, lalu menanyakan apakah mau mengembalikan konsol lain. Stok konsol otomatis bertambah. Kalau tidak ada konsol yang disewa, program menampilkan "Tidak ada konsol yang perlu dikembalikan.".
+
+**7. Logout**
+
+<img width="439" height="141" alt="image" src="https://github.com/user-attachments/assets/c58ae975-fb6c-42e4-91bc-46b9b1f1d058" />
+
+Menampilkan pesan "Logout berhasil." lalu user menekan Enter. Setelah itu user kembali ke Menu Utama (Registrasi, Login, Keluar).
+
+
