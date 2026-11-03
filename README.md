@@ -316,3 +316,36 @@ Menampilkan antarmuka CLI untuk rekapitulasi data performa penyewaan konsol. Sis
 Menampilkan antarmuka CLI untuk fitur keluar (logout) dari sesi akun pengguna. Setelah pengguna memilih opsi menu "7" (Logout), sistem mengonfirmasi dengan pesan "Logout berhasil." dan meminta pengguna menekan Enter untuk melanjutkan
 
 ## C. MENU USER
+<img width="434" height="344" alt="image" src="https://github.com/user-attachments/assets/bb94591f-8734-469f-bd06-d0880e189cdb" />
+
+**1. Lihat Daftar Konsol**
+
+<img width="664" height="348" alt="image" src="https://github.com/user-attachments/assets/1dde3d79-7c33-4f5e-9f8e-21aaa7e9e71d" />
+
+Menampilkan tabel daftar konsol yang bisa disewa. Isi tabelnya ada Kode, Nama, Merek, Harga/Jam, dan Stok. Setelah melihat tabel, user menekan Enter untuk kembali ke Menu User.
+
+**2. Top Up E-Money**
+
+<img width="788" height="341" alt="image" src="https://github.com/user-attachments/assets/3966f3da-852e-491d-a7fe-0ec37d500c1e" />
+
+Menampilkan tampilan untuk mengisi saldo e-money. Program memberi tahu batas top up, yaitu minimal Rp5.000 dan maksimal Rp2.000.000, lalu user memasukkan nominalnya. Kalau nominal sudah sesuai, program menampilkan "Top up berhasil." beserta ID transaksi, nominal top up, dan saldo terbaru. Kalau nominal tidak sesuai atau bukan angka, program menampilkan pesan error dan menanyakan apakah mau memasukkan nominal lagi (y/n). Kalau user mengetik 0, top up dibatalkan.
+
+**3. Sewa Konsol**
+
+<img width="778" height="447" alt="image" src="https://github.com/user-attachments/assets/5b05a481-a972-484b-a0ac-5284e7d28557" />
+
+Menampilkan tampilan untuk menyewa konsol. Pertama program menampilkan daftar konsol, lalu user memasukkan kode konsol, durasi sewa (jam), dan jumlah konsol yang disewa. Setelah itu program menanyakan apakah user mau menambah konsol lain. Kalau sudah selesai, program menampilkan "RINGKASAN PENYEWAAN" berupa tabel yang berisi Kode, Nama Konsol, Harga/Jam, Durasi, Jumlah, dan Subtotal, lengkap dengan total pembayaran dan saldo user. Kalau saldo kurang, program menampilkan "Saldo tidak mencukupi. Silakan lakukan top up.". Kalau saldo cukup dan user mengetik 'y', program menampilkan "Penyewaan berhasil!" beserta tabel ID Transaksi, Total Pembayaran, dan Sisa Saldo.
+
+**4. Riwayat Transaksi**
+
+<img width="872" height="204" alt="image" src="https://github.com/user-attachments/assets/2412c159-7198-46a8-b930-88dc4205efa9" />
+
+Menampilkan tabel riwayat transaksi milik user yang sedang login saja. Kolom yang ada yaitu ID, Jenis (Top Up atau Sewa), Kode, Nama, Durasi, Jumlah, Total, dan Waktu. Kalau belum pernah transaksi, program menampilkan "Belum ada riwayat transaksi."
+
+**5. Cetak Invoice**
+
+<img width="348" height="408" alt="image" src="https://github.com/user-attachments/assets/7d7dc7d5-7221-499c-991f-205edaaac808" />
+
+Menampilkan tampilan untuk mencetak bukti transaksi. Program menampilkan tabel riwayat transaksi (No., ID Transaksi, Jenis, Waktu, Total), lalu user memilih nomor transaksi yang mau dicetak. Setelah itu program menampilkan invoice "RENT 4-BIT" yang berisi ID Transaksi, Username, Jenis, Waktu, rincian konsol (Kode, Nama, Durasi, Jumlah, Subtotal), dan Total Transaksi, lalu ditutup dengan tulisan "Terima kasih telah bertransaksi!".
+
+**6. Pengembalian Konsol**
