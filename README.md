@@ -129,3 +129,8 @@ Flowchart Menu User berfungsi untuk memberikan akses kepada pengguna agar dapat 
 User memilih menu ``logout``, kemudian program mengakhiri sesi pengguna dan mengarahkan pengguna kembali ke Menu Utama.
 
 ## Daftar Fitur per Role
+Program RENT 4-BIT memiliki beberapa fitur yang dikelompokkan berdasarkan hak akses pengguna, yaitu Menu Utama, Admin, dan User. Setiap role memiliki fungsi dan hak akses yang berbeda sesuai kebutuhan sistem.
+
+## A. Menu Utama 
+
+Menu utama merupakan tampilan awal program yang digunakan pengguna untuk memilih layanan sebelum masuk ke dalam sistem. Terdapat tiga pilihan yang tersedia, yaitu:
