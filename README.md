@@ -247,7 +247,7 @@ Fitur logout digunakan user untuk keluar dari akun yang sedang digunakan dan men
 
 ## OUTPUT DAN PENJELASAN
 
-## A. OUTPUT MENU UTAMA
+## A. MENU UTAMA
 
 <img width="423" height="247" alt="image" src="https://github.com/user-attachments/assets/6e9ddf2d-697a-4b4e-b580-f9c3857ce4bd" />
 
@@ -269,7 +269,7 @@ Menampilkan antarmuka CLI untuk proses autentikasi (login) pengguna. Sistem mene
 
 Menampilkan antarmuka CLI untuk menu utama aplikasi RENTAL KONSOL BY 4-BIT ("RENT 4-BIT"). Sistem menampilkan tiga opsi: Registrasi, Login, dan Keluar. Pada contoh ini, pengguna menginput angka "3" (Keluar), sehingga program menampilkan pesan penutup "Terima kasih telah menggunakan RENT 4-BIT." dan proses eksekusi program dihentikan.
 
-## A. OUTPUT MENU UTAMA ADMIN
+## B. MENU ADMIN
 
 <img width="384" height="263" alt="image" src="https://github.com/user-attachments/assets/d87d1567-ef8c-4e1a-93df-5b8d72b94cb4" />
 
